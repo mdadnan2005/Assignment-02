@@ -21,17 +21,17 @@
     </header>
     <div class="flex justify-between mb-20 max-md:flex-col-reverse">
         <div class="pt-18 max-md:pt-15">
-            <div class="font-bold text-5xl font-serif mb-3">ALWAYS <span class="text-[#E95A08]">FRESH</span></div>
-            <div class="font-bold text-5xl font-serif mb-3 text-[#E95A08]">FLOWERS</div>
+            <div class="font-bold text-5xl font-serif mb-3 max-md:text-3xl">ALWAYS <span class="text-[#E95A08]">FRESH</span></div>
+            <div class="font-bold text-5xl font-serif mb-3 text-[#E95A08] max-md:text-3xl">FLOWERS</div>
             <p class="text-lg text-[#8987A1]">
                 Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
             </p>
         </div>
-        <img src="B12A02-Responsive-Flowers/assets/hero-flower.png">
+        <img src="B12A02-Responsive-Flowers/assets/hero-flower.png" class="w-1/2 max-md:w-auto">
     </div>
     <div class="text-center mb-10">
-        <h1 class="text-[50px] font-bold font-serif">Our <span class="text-[#E95A08]">Plants</span></h1>
-        <p class="text-[#8987A1] px-50 max-md:px-0">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        <h1 class="text-[50px] font-bold font-serif max-md:text-3xl">Our <span class="text-[#E95A08]">Plants</span></h1>
+        <p class="text-[#8987A1] px-50 text-lg max-md:px-0">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
     </div>
     <div class="grid grid-cols-4 gap-x-5 gap-y-7 max-md:grid-cols-2">
         <div class="w-auto text-center">
@@ -69,7 +69,7 @@
         <div class="w-auto text-center">
             <img src="B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="Lily Blossom" class="w-auto h-auto">
             <h2 class="mt-4 text-xl font-medium text-gray-900">Lily Blossom</h2>
-            <p class="text-lg font-bold text-black mt-1">20 USD</p>
+            <p class="text-xl font-bold text-black mt-1">20 USD</p>
             <button class="w-full bg-orange-600 text-white py-2 mt-4 font-semibold hover:bg-orange-700 transition">
             ADD TO CART
             </button>
@@ -106,20 +106,33 @@
             <h1 class="text-4xl font-serif font-bold mb-3">Flower & Plants </h1>
             <h1 class="text-4xl font-serif font-bold mb-3">Lover</h1>
             <div class="text-[#8987A1]">
-                <li class="mb-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                <li class="mb-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <li class="text-lg mb-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <li class="text-lg mb-3">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                 <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
             </div>
         </div>
     </div>
-    <div class="text-center">
+    <div class="text-center mb-20">
         <h1 class="font-bold text-4xl font-serif mb-3"><span class="text-[#E95A08]">Latest</span> Deals</h1>
-        <p class="text-[#8987A1] px-50 max-md:px-0">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        <p class="text-[#8987A1] text-lg px-50 max-md:px-0">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
     </div>
-    <div class="grid grid-cols-3">
-        <img src="B12A02-Responsive-Flowers/assets/deal-bloom.png">
-        <img src="B12A02-Responsive-Flowers/assets/deal-ana.png">
-        <img src="B12A02-Responsive-Flowers/assets/deal-zabo.png">
+    <div class="grid grid-cols-1 mb-20 font-serif md:grid-cols-3 gap-4 max-w-6xl w-full">
+    <div class="flex flex-col gap-4">
+      <div class="bg-[url(B12A02-Responsive-Flowers/assets/deal-bloom.png)] bg-cover bg-gray-600 bg-blend-overlay text-white rounded-lg p-6 text-center h-32 flex flex-col justify-center">
+        <h3 class="text-lg font-semibold">60% Off | Bloom Plant</h3>
+        <a href="#" class="mt-2 underline text-sm font-medium">Shop Now</a>
+      </div>
+      <div class="bg-[url(B12A02-Responsive-Flowers/assets/deal-ana.png)] bg-cover bg-center bg-gray-600 bg-blend-overlay text-white rounded-lg p-6 text-center h-32 flex flex-col justify-center max-md:rounded-none">
+        <h3 class="text-lg font-semibold">30% Off | Ana Plant</h3>
+        <a href="#" class="mt-2 underline text-sm font-medium">Shop Now</a>
+      </div>
     </div>
+    <div class="md:col-span-2">
+      <div class="bg-[url(B12A02-Responsive-Flowers/assets/deal-zabo.png)] bg-cover bg-center bg-gray-600 bg-blend-overlay text-white rounded-lg h-full flex flex-col justify-center items-center text-center p-10 max-md:h-32 p-6">
+        <h2 class="text-3xl font-bold max-md:text-lg font-semibold">25% Off | Zabo Plant</h2>
+        <a href="#" class="mt-4 underline text-lg font-semibold hover:text-red-500 transition max-md:mt-2 max-md:text-sm max-md:font-thin">Shop Now</a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
